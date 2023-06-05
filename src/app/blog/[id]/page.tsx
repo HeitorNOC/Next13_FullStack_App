@@ -1,5 +1,7 @@
+import styles from './page.module.css'
+
 export default function BlogPost() {
   return (
-    <h1></h1>
+    <div className={styles.container}>Blog Post</div>
   )
 }

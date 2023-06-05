@@ -1,5 +1,7 @@
+import styles from './page.module.css'
+
 export default function Register() {
   return (
-    <h1>Register</h1>
+    <div className={styles.container}>Register</div>
   )
 }
