@@ -22,7 +22,7 @@ function getData(cat: string) {
 
 
 export default function Category({ params }: CategoryParams) {
-  console.log(params)
+  
   const data = getData(params.category);
   return (
     <div className={styles.container}>
